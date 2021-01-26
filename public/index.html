@@ -23,13 +23,11 @@
 
     <body class="antialiased bg-blue-1300">
 
-        <a href="http://wickedtemplates.com/?ref=WickedBlocksWidget" target="_blank"
-            class="fixed bottom-0 right-0 z-10 m-2 rounded-full">
+        <a href="http://wickedtemplates.com/?ref=WickedBlocksWidget" target="_blank" class="fixed bottom-0 right-0 z-10 m-2 rounded-full">
 
-            <div class="flex items-center justify-start hidden font-medium text-gray-900 w-52 lg:block title-font">
-                <img class="object-cover object-center rounded-full bg-blue-1300" alt="badge"
-                    src="./WickedTemplates.svg">
-            </div>
+        <div class="flex items-center justify-start hidden w-64 font-medium text-gray-900 lg:block title-font">
+            <img class="object-cover object-center rounded-full bg-blue-1300" alt="badge" src="./WickedTemplates.svg">
+        </div>
         </a>
         <!--- Opacitiy to nav style="backdrop-filter: saturate(180%) blur(5px) !important; background-color:  rgba(0, 0, 0, 0.30) !important;"-->
         <div class="z-50 w-full text-gray-500 border-b border-blueGray-900 bg-blue-1300 lg:px-20">
@@ -67,21 +65,21 @@
                                 d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
                         </svg>
                     </a>
-                    <a class="inline-flex items-center p-3 font-semibold text-white transition duration-500 ease-in-out transform rounded-xl md:w-auto font-lg focus:outline-none hover:text-blue-1500 md:mr-4"
-                        href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fblocks.wickedtemplates.com%2F&via=Mike_Andreuzza&text=WICKEDBLOCKS%20are%20a%20growing%20collection%20of%20more%20than%20120%20layout%20blocks%20and%20components%20built%20with%20Tailwind%20CSS%20V2%20ready%20to%20copy%20paste%20on%20your%20Tailwind%20project.&hashtags=tailwindcss%2Cwebdev%2Cuiux">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"
-                            width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                            fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path
-                                d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
-                        </svg>
-                    </a>
-                    <button x-data="{usedKeyboard: false}" @keydown.window.tab="usedKeyboard = true"
-                        @click="$dispatch('open-menu', { open: true })" :class="{'focus:outline-none': !usedKeyboard}"
-                        class="items-center px-8 py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-blueGray-700 rounded-xl hover:bg-teal-1000 md:w-auto font-lg focus:outline-none hover:text-blue-1400">
-                        Quick Acces to Blocks
-                    </button>
+                        <a class="inline-flex items-center p-3 font-semibold text-white transition duration-500 ease-in-out transform rounded-xl md:w-auto font-lg focus:outline-none hover:text-blue-1500 md:mr-4"
+                            href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fblocks.wickedtemplates.com%2F&via=Mike_Andreuzza&text=WICKEDBLOCKS%20are%20a%20growing%20collection%20of%20more%20than%20120%20layout%20blocks%20and%20components%20built%20with%20Tailwind%20CSS%20V2%20ready%20to%20copy%20paste%20on%20your%20Tailwind%20project.&hashtags=tailwindcss%2Cwebdev%2Cuiux">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                            </svg>
+                        </a>
+                        <button x-data="{usedKeyboard: false}" @keydown.window.tab="usedKeyboard = true"
+                            @click="$dispatch('open-menu', { open: true })" :class="{'focus:outline-none': !usedKeyboard}"
+                            class="items-center px-8 py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-blueGray-700 rounded-xl hover:bg-teal-1000 md:w-auto font-lg focus:outline-none hover:text-blue-1400">
+                            Quick Acces to Blocks
+                        </button>
                 </nav>
             </div>
         </div>
@@ -338,16 +336,16 @@
         <section class="text-left " id="leftheaders">
             <div class="container flex flex-col items-center px-5 py-20 mx-auto text-left lg:px-24 md:flex-row ">
                 <div
-                    class="flex flex-col items-center w-full pt-0 mb-16 text-center md:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
+                    class="flex flex-col items-center w-full pt-0 mb-16 text-center lg:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
                     <span class="px-4 py-2 mb-2 text-left rounded-lg lg:ml-auto bg-coolGray-900 text-teal-1000">12
                         Blocks</span>
-                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered md:text-left">
+                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered lg:text-left">
                         HEADERS
                     </h2>
                     <h1
                         class="justify-start mb-8 text-4xl font-bold leading-tight tracking-tighter text-left text-teal-1000 lg:text-5xl">
                         Left Headers.</h1>
-                    <p class="mb-8 text-base leading-relaxed text-center text-white md:text-left lg:text-1xl">
+                    <p class="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
                         This headers have text on the left side of the screen including zero to 2 call to action, on the
                         right side there's an image
                         or other assets.You can use them as a hero or within sections.
@@ -381,16 +379,16 @@
         <section class="text-left lg:pt-8" id="centeredheaders">
             <div class="container flex flex-col items-center px-5 py-20 mx-auto text-left lg:px-24 md:flex-row ">
                 <div
-                    class="flex flex-col items-center w-full pt-0 mb-16 text-center md:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
+                    class="flex flex-col items-center w-full pt-0 mb-16 text-center lg:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
                     <span class="px-4 py-2 mb-2 text-left rounded-lg lg:ml-auto bg-coolGray-900 text-teal-1000">15
                         Blocks</span>
-                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered md:text-left">
+                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered lg:text-left">
                         HEADERS
                     </h2>
                     <h1
                         class="justify-start mb-8 text-4xl font-bold leading-tight tracking-tighter text-left text-teal-1000 lg:text-5xl">
                         Centered Headers.</h1>
-                    <p class="mb-8 text-base leading-relaxed text-center text-white md:text-left lg:text-1xl">
+                    <p class="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
                         This headers have text on top of none, one or two call to action, sometimes there's an image or
                         other assets, like text or call to actions as mentioned.You can use them as a hero or within
                         sections.
@@ -424,16 +422,16 @@
         <section class="text-left lg:pt-8" id="rightheaders">
             <div class="container flex flex-col items-center px-5 py-20 mx-auto text-left lg:px-24 md:flex-row ">
                 <div
-                    class="flex flex-col items-center w-full pt-0 mb-16 text-center md:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
+                    class="flex flex-col items-center w-full pt-0 mb-16 text-center lg:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
                     <span class="px-4 py-2 mb-2 text-left rounded-lg lg:ml-auto bg-coolGray-900 text-teal-1000">12
                         Blocks</span>
-                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered md:text-left">
+                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered lg:text-left">
                         HEADERS
                     </h2>
                     <h1
                         class="justify-start mb-8 text-4xl font-bold leading-tight tracking-tighter text-left text-teal-1000 lg:text-5xl">
                         Right Headers.</h1>
-                    <p class="mb-8 text-base leading-relaxed text-center text-white md:text-left lg:text-1xl">
+                    <p class="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
                         This headers have text on the right side of the screen with one or two call to action, on the
                         left side there's an image or other assets. You can use them as a hero or within sections.
                     </p>
@@ -466,16 +464,16 @@
         <section class="text-left lg:pt-8" id="auth">
             <div class="container flex flex-col items-center px-5 py-20 mx-auto text-left lg:px-24 md:flex-row ">
                 <div
-                    class="flex flex-col items-center w-full pt-0 mb-16 text-center md:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
+                    class="flex flex-col items-center w-full pt-0 mb-16 text-center lg:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
                     <span class="px-4 py-2 mb-2 text-left rounded-lg lg:ml-auto bg-coolGray-900 text-teal-1000">4
                         Blocks</span>
-                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered md:text-left">
+                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered lg:text-left">
                         Authentication
                     </h2>
                     <h1
                         class="justify-start mb-8 text-4xl font-bold leading-tight tracking-tighter text-left text-teal-1000 lg:text-5xl">
                         Auth Components.</h1>
-                    <p class="mb-8 text-base leading-relaxed text-center text-white md:text-left lg:text-1xl">
+                    <p class="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
                         Authentication/Authorization is used by a server when the server needs to know exactly who is
                         accessing their information or site.
                     </p>
@@ -508,16 +506,16 @@
         <section class="text-left lg:pt-8" id="price">
             <div class="container flex flex-col items-center px-5 py-20 mx-auto text-left lg:px-24 md:flex-row ">
                 <div
-                    class="flex flex-col items-center w-full pt-0 mb-16 text-center md:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
+                    class="flex flex-col items-center w-full pt-0 mb-16 text-center lg:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
                     <span class="px-4 py-2 mb-2 text-left rounded-lg lg:ml-auto bg-coolGray-900 text-teal-1000">6
                         Blocks</span>
-                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered md:text-left">
+                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered lg:text-left">
                         E Commerce
                     </h2>
                     <h1
                         class="justify-start mb-8 text-4xl font-bold leading-tight tracking-tighter text-left text-teal-1000 lg:text-5xl">
                         Pricing.</h1>
-                    <p class="mb-8 text-base leading-relaxed text-center text-white md:text-left lg:text-1xl">
+                    <p class="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
                         The Pricing Table component is used to display price + features about your products. Cards and
                         tables are often used for this.
                     </p>
@@ -550,16 +548,16 @@
         <section class="text-left lg:pt-8" id="clients">
             <div class="container flex flex-col items-center px-5 py-20 mx-auto text-left lg:px-24 md:flex-row ">
                 <div
-                    class="flex flex-col items-center w-full pt-0 mb-16 text-center md:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
+                    class="flex flex-col items-center w-full pt-0 mb-16 text-center lg:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
                     <span class="px-4 py-2 mb-2 text-left rounded-lg lg:ml-auto bg-coolGray-900 text-teal-1000">7
                         Blocks</span>
-                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered md:text-left">
+                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered lg:text-left">
                         TESTIMONIALS
                     </h2>
                     <h1
                         class="justify-start mb-8 text-4xl font-bold leading-tight tracking-tighter text-left text-teal-1000 lg:text-5xl">
                         Clients.</h1>
-                    <p class="mb-8 text-base leading-relaxed text-center text-white md:text-left lg:text-1xl">
+                    <p class="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
                         A website testimonial showcases the quality and success of a site’s products or services, this
                         ones can include:
                         Customer experiences,
@@ -597,16 +595,16 @@
         <section class="text-left lg:pt-8" id="grids">
             <div class="container flex flex-col items-center px-5 py-20 mx-auto text-left lg:px-24 md:flex-row ">
                 <div
-                    class="flex flex-col items-center w-full pt-0 mb-16 text-center md:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
+                    class="flex flex-col items-center w-full pt-0 mb-16 text-center lg:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
                     <span class="px-4 py-2 mb-2 text-left rounded-lg lg:ml-auto bg-coolGray-900 text-teal-1000">16
                         Blocks</span>
-                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered md:text-left">
+                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered lg:text-left">
                         LAYOUT
                     </h2>
                     <h1
                         class="justify-start mb-8 text-4xl font-bold leading-tight tracking-tighter text-left text-teal-1000 lg:text-5xl">
                         Flexbox Grids.</h1>
-                    <p class="mb-8 text-base leading-relaxed text-center text-white md:text-left lg:text-1xl">
+                    <p class="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
                         The flex layout allows responsive elements within a container to be automatically arranged
                         depending upon screen size.
                     </p>
@@ -639,16 +637,16 @@
         <section class="text-left lg:pt-8" id="forms">
             <div class="container flex flex-col items-center px-5 py-20 mx-auto text-left lg:px-24 md:flex-row ">
                 <div
-                    class="flex flex-col items-center w-full pt-0 mb-16 text-center md:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
+                    class="flex flex-col items-center w-full pt-0 mb-16 text-center lg:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
                     <span class="px-4 py-2 mb-2 text-left rounded-lg lg:ml-auto bg-coolGray-900 text-teal-1000">11
                         Blocks</span>
-                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered md:text-left">
+                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered lg:text-left">
                         DATA
                     </h2>
                     <h1
                         class="justify-start mb-8 text-4xl font-bold leading-tight tracking-tighter text-left text-teal-1000 lg:text-5xl">
                         Forms.</h1>
-                    <p class="mb-8 text-base leading-relaxed text-center text-white md:text-left lg:text-1xl">
+                    <p class="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
                         The form allows for user input and t is an interactive page that mimics a paper document or
                         form, where users fill out particular
                         fields with informaion.
@@ -682,16 +680,16 @@
         <section class="text-left lg:pt-8" id="gallery">
             <div class="container flex flex-col items-center px-5 py-20 mx-auto text-left lg:px-24 md:flex-row ">
                 <div
-                    class="flex flex-col items-center w-full pt-0 mb-16 text-center md:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
+                    class="flex flex-col items-center w-full pt-0 mb-16 text-center lg:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
                     <span class="px-4 py-2 mb-2 text-left rounded-lg lg:ml-auto bg-coolGray-900 text-teal-1000">13
                         Blocks</span>
-                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered md:text-left">
+                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered lg:text-left">
                         IMAGES
                     </h2>
                     <h1
                         class="justify-start mb-8 text-4xl font-bold leading-tight tracking-tighter text-left text-teal-1000 lg:text-5xl">
                         Galleries.</h1>
-                    <p class="mb-8 text-base leading-relaxed text-center text-white md:text-left lg:text-1xl">
+                    <p class="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
                         Galleries are a popular way of integrating images into a website, allowing users to see several
                         images clearly at once.
                     </p>
@@ -724,16 +722,16 @@
         <section class="text-left lg:pt-8" id="nav">
             <div class="container flex flex-col items-center px-5 py-20 mx-auto text-left lg:px-24 md:flex-row ">
                 <div
-                    class="flex flex-col items-center w-full pt-0 mb-16 text-center md:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
+                    class="flex flex-col items-center w-full pt-0 mb-16 text-center lg:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
                     <span class="px-4 py-2 mb-2 text-left rounded-lg lg:ml-auto bg-coolGray-900 text-teal-1000">8
                         Blocks</span>
-                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered md:text-left">
+                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered lg:text-left">
                         MENU
                     </h2>
                     <h1
                         class="justify-start mb-8 text-4xl font-bold leading-tight tracking-tighter text-left text-teal-1000 lg:text-5xl">
                         Navigation.</h1>
-                    <p class="mb-8 text-base leading-relaxed text-center text-white md:text-left lg:text-1xl">
+                    <p class="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
                         Navigation allows visitors to flow from one page to another without frustration.
                         Without website navigation, your visitors can’t figure out how to find your blog, your email
                         signup page, your product
@@ -768,16 +766,16 @@
         <section class="text-left lg:pt-8" id="footers">
             <div class="container flex flex-col items-center px-5 py-20 mx-auto text-left lg:px-24 md:flex-row ">
                 <div
-                    class="flex flex-col items-center w-full pt-0 mb-16 text-center md:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
+                    class="flex flex-col items-center w-full pt-0 mb-16 text-center lg:text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0 ">
                     <span class="px-4 py-2 mb-2 text-left rounded-lg lg:ml-auto bg-coolGray-900 text-teal-1000">10
                         Blocks</span>
-                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered md:text-left">
+                    <h2 class="w-full mb-1 text-xs font-semibold tracking-widest text-white text-centered lg:text-left">
                         SubMenu
                     </h2>
                     <h1
                         class="justify-start mb-8 text-4xl font-bold leading-tight tracking-tighter text-left text-teal-1000 lg:text-5xl">
                         Footers.</h1>
-                    <p class="mb-8 text-base leading-relaxed text-center text-white md:text-left lg:text-1xl">
+                    <p class="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
                         The website footer is the section of content at the very bottom of a web page. It typically
                         contains a copyright notice,
                         link to a privacy policy, sitemap, logo, contact information, social media icons, and an email
@@ -859,15 +857,11 @@
             </div>
         </footer>
         <footer class="mt-10 border-t border-gray-800 body-font">
-            <div class="container flex flex-col flex-wrap items-center px-5 py-6 mx-auto md:flex-row md:flex-no-wrap lg:px-20 ">
+            <div
+                class="container flex flex-col flex-wrap items-center px-5 py-6 mx-auto md:flex-row md:flex-no-wrap lg:px-20 ">
                 <p class="mb-4 text-sm font-semibold text-center text-white lg:mr-6 lg:mb-0">
                     Released under the MIT License Copyright 2021 © Michael Andreuzza
                 </p>
-                <a href="https://www.producthunt.com/posts/wickedblocks?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-wickedblocks"
-                    target="_blank"><img
-                        src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=281332&theme=dark&period=daily"
-                        alt="WickedBlocks - Tailwind V2 blocks ready to copy paste | Product Hunt"
-                        style="width: 250px; height: 54px;" width="250" height="54" /></a>
                 <span class="inline-flex items-center lg:ml-auto">
                     <p class="mb-4 text-sm font-bold text-center text-white sm:text-left lg:mb-0">
                         <a href="https://twitter.com/mike_andreuzza" class="" rel="noopener noreferrer" target="_blank">
